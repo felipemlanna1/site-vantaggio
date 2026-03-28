@@ -1,0 +1,44 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <title>Vantaggio Restaurante Logo</title>
+  <desc>Sophisticated gold logo for an Italian-Brazilian restaurant featuring a stylized fork-wheat icon.</desc>
+  <defs>
+    <linearGradient id="gold-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A67C52" />
+      <stop offset="50%" stop-color="#C8A97E" />
+      <stop offset="100%" stop-color="#A67C52" />
+    </linearGradient>
+  </defs>
+  <style>
+    .serif-text {
+      font-family: "Georgia", "Times New Roman", serif;
+      font-size: 54px;
+      font-weight: 400;
+      fill: url(#gold-shimmer);
+      text-transform: uppercase;
+    }
+    .sans-text {
+      font-family: "Helvetica", "Arial", sans-serif;
+      font-size: 13px;
+      fill: #C8A97E;
+      letter-spacing: 0.65em;
+      text-transform: uppercase;
+    }
+    .icon-stroke {
+      stroke: #C8A97E;
+      stroke-width: 1.5;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+  <g transform="translate(200, 60)">
+    <!-- Stylized Wheat/Fork Icon -->
+    <path class="icon-stroke" d="M -6 -35 Q -6 -25 0 -22 Q 6 -25 6 -35 M -2 -35 V -28 M 2 -35 V -28 M 0 -22 V -12" />
+    
+    <!-- Main Title -->
+    <text x="0" y="25" text-anchor="middle" class="serif-text">Vantaggio</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="52" text-anchor="middle" class="sans-text">Restaurante</text>
+  </g>
+</svg>
