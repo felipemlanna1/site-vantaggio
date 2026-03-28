@@ -28,7 +28,7 @@ const reviews = [
   {
     name: 'Eduardo M.',
     rating: 4,
-    text: 'Ambiente muito agradavel, com musica ao vivo que completa a experiencia. As massas caseiras sao maravilhosas, especialmente o fettuccine. Recomendo para um jantar romantico.',
+    text: 'Ambiente muito agradável, com música ao vivo que completa a experiência. As massas caseiras sao maravilhosas, especialmente o fettuccine. Recomendo para um jantar romântico.',
     date: 'Fev 2026',
     source: 'Google',
   },

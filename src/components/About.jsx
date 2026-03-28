@@ -6,7 +6,7 @@ const highlights = [
   {
     icon: Medal,
     title: 'Pioneiro',
-    desc: '1o rodizio de mini hamburguer gourmet da regiao de Florianopolis',
+    desc: '1o rodizio de mini hamburguer gourmet da regiao de Florianópolis',
   },
   {
     icon: Fire,
@@ -38,7 +38,7 @@ export default function About() {
           </h2>
           <p className="about__desc">
             O Vantaggio nasceu da paixao por reunir o melhor da gastronomia
-            em uma unica experiencia. Somos o pioneiro e 1o Rodizio de Mini Hamburguer
+            em uma unica experiência. Somos o pioneiro e 1o Rodizio de Mini Hamburguer
             Gourmet da regiao, unindo a suculencia do hamburguer artesanal a
             tradicao das pizzas crocantes e massas irresistiveis.
           </p>
@@ -46,7 +46,7 @@ export default function About() {
             Em Canasvieiras, a poucos passos do mar, criamos um espaco onde cada
             detalhe foi pensado para proporcionar momentos memoraveis.
             Com ingredientes frescos e de alta qualidade, cada prato e
-            preparado com dedicacao e carinho.
+            preparado com dedicação e carinho.
           </p>
         </div>
 

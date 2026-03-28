@@ -11,7 +11,7 @@ const categories = [
     icon: Hamburger,
     title: 'Mini Hamburgueres',
     subtitle: 'Gourmet Artesanais',
-    description: 'Nosso carro-chefe e orgulho: o 1o rodizio de mini hamburgueres gourmet de Florianopolis. Cada mini burguer e uma explosao de sabor com blend de carnes premium, queijos especiais e molhos autorais.',
+    description: 'Nosso carro-chefe e orgulho: o 1o rodizio de mini hamburgueres gourmet de Florianópolis. Cada mini burguer e uma explosao de sabor com blend de carnes premium, queijos especiais e molhos autorais.',
     image: './images/hamburguer-gourmet.jpg',
     items: ['Blend Angus com cheddar defumado', 'Smash burguer com bacon crocante', 'Costela desfiada com geleia de pimenta', 'Vegano com cogumelos grelhados', 'Blue cheese com cebola caramelizada', 'Caprese com tomate seco e rucula'],
     accent: '#E67E22',
@@ -49,7 +49,7 @@ export default function Rodizio() {
       <div className="container">
         <div className={`rodizio__header reveal ${inView ? 'revealed' : ''}`}>
           <span className="section-label">O Rodizio</span>
-          <h2 className="section-title">Tres experiencias em <em className="text-gold">um so rodizio</em></h2>
+          <h2 className="section-title">Tres experiências em <em className="text-gold">um so rodizio</em></h2>
           <p className="section-subtitle">Coma a vontade: mini hamburgueres, pizzas e massas.</p>
         </div>
 

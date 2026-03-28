@@ -7,11 +7,11 @@ const WHATSAPP_URL = 'https://wa.me/5548984552026?text=Ol%C3%A1!%20Gostaria%20de
 const navLinks = [
   { href: '#sobre', label: 'Sobre' },
   { href: '#rodizio', label: 'Rodizio' },
-  { href: '#cardapio', label: 'Cardapio' },
-  { href: '#experiencia', label: 'Experiencia' },
+  { href: '#cardápio', label: 'Cardápio' },
+  { href: '#experiência', label: 'Experiencia' },
   { href: '#depoimentos', label: 'Avaliacoes' },
   { href: '#reserva', label: 'Reserva' },
-  { href: '#localizacao', label: 'Como Chegar' },
+  { href: '#localização', label: 'Como Chegar' },
 ]
 
 export default function Navbar() {

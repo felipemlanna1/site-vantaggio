@@ -8,7 +8,7 @@ const features = [
   {
     icon: MusicNote,
     title: 'Musica ao Vivo',
-    desc: 'Noites especiais com musica ao vivo criando a atmosfera perfeita para seu jantar',
+    desc: 'Noites especiais com música ao vivo criando a atmosfera perfeita para seu jantar',
   },
   {
     icon: Wine,
@@ -18,7 +18,7 @@ const features = [
   {
     icon: Baby,
     title: 'Espaco Kids',
-    desc: 'Area dedicada para os pequenos se divertirem enquanto voce aprecia o rodizio',
+    desc: 'Area dedicada para os pequenos se divertirem enquanto você aprecia o rodizio',
   },
   {
     icon: WifiHigh,
@@ -54,7 +54,7 @@ export default function Experiencia() {
           </h2>
           <p className="experiencia__desc">
             No Vantaggio, cada detalhe foi pensado para transformar sua refeicao
-            em um momento especial. Ambiente aconchegante, musica ao vivo e o
+            em um momento especial. Ambiente aconchegante, música ao vivo e o
             melhor atendimento de Canasvieiras.
           </p>
 

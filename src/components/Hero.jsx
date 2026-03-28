@@ -57,8 +57,8 @@ export default function Hero() {
             <WhatsappLogo size={20} weight="fill" />
             <span>Reservar Mesa</span>
           </a>
-          <a href="#cardapio" className="btn-secondary">
-            <span>Ver Cardapio</span>
+          <a href="#cardápio" className="btn-secondary">
+            <span>Ver Cardápio</span>
           </a>
         </div>
 
@@ -70,7 +70,7 @@ export default function Hero() {
           <div className="hero__info-divider" />
           <div className="hero__info-item">
             <span className="hero__info-label">Canasvieiras</span>
-            <span className="hero__info-value">Florianopolis, SC</span>
+            <span className="hero__info-value">Florianópolis, SC</span>
           </div>
         </div>
       </div>

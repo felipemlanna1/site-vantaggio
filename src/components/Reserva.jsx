@@ -18,7 +18,7 @@ export default function Reserva() {
               Garanta sua <em className="text-gold">mesa</em>
             </h2>
             <p className="reserva__desc">
-              Para garantir a melhor experiencia, recomendamos fazer sua reserva com
+              Para garantir a melhor experiência, recomendamos fazer sua reserva com
               antecedencia, especialmente aos finais de semana e feriados.
               Entre em contato pelo WhatsApp ou telefone.
             </p>

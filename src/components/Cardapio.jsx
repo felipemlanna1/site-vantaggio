@@ -101,7 +101,7 @@ const menuItems = [
   },
 ]
 
-export default function Cardapio() {
+export default function Cardápio() {
   const [filter, setFilter] = useState('all')
   const { ref, inView } = useInView({ threshold: 0.05, triggerOnce: true })
 
@@ -110,10 +110,10 @@ export default function Cardapio() {
     : menuItems.filter(item => item.category === filter)
 
   return (
-    <section className="cardapio" id="cardapio" ref={ref}>
+    <section className="cardápio" id="cardapio" ref={ref}>
       <div className="container">
-        <div className={`cardapio__header reveal ${inView ? 'revealed' : ''}`}>
-          <span className="section-label">Cardapio</span>
+        <div className={`cardápio__header reveal ${inView ? 'revealed' : ''}`}>
+          <span className="section-label">Cardápio</span>
           <h2 className="section-title">
             Sabores que <em className="text-gold">encantam</em>
           </h2>
@@ -123,11 +123,11 @@ export default function Cardapio() {
         </div>
 
         {/* Filter tabs */}
-        <div className={`cardapio__filters reveal delay-1 ${inView ? 'revealed' : ''}`}>
+        <div className={`cardápio__filters reveal delay-1 ${inView ? 'revealed' : ''}`}>
           {menuCategories.map(cat => (
             <button
               key={cat.id}
-              className={`cardapio__filter ${filter === cat.id ? 'cardapio__filter--active' : ''}`}
+              className={`cardápio__filter ${filter === cat.id ? 'cardápio__filter--active' : ''}`}
               onClick={() => setFilter(cat.id)}
             >
               {cat.label}
@@ -136,45 +136,45 @@ export default function Cardapio() {
         </div>
 
         {/* Menu grid */}
-        <div className="cardapio__grid">
+        <div className="cardápio__grid">
           {filtered.map((item, i) => (
             <div
               key={`${item.name}-${i}`}
-              className={`cardapio__card reveal ${inView ? 'revealed' : ''}`}
+              className={`cardápio__card reveal ${inView ? 'revealed' : ''}`}
               style={{ transitionDelay: `${0.15 + i * 0.08}s` }}
             >
               {item.image ? (
-                <div className="cardapio__card-image">
+                <div className="cardápio__card-image">
                   <img src={item.image} alt={item.name} loading="lazy" />
-                  {item.tag && <span className="cardapio__card-tag">{item.tag}</span>}
+                  {item.tag && <span className="cardápio__card-tag">{item.tag}</span>}
                 </div>
               ) : (
-                <div className="cardapio__card-placeholder">
+                <div className="cardápio__card-placeholder">
                   <ForkKnife size={32} weight="duotone" />
-                  {item.tag && <span className="cardapio__card-tag">{item.tag}</span>}
+                  {item.tag && <span className="cardápio__card-tag">{item.tag}</span>}
                 </div>
               )}
-              <div className="cardapio__card-info">
-                <h4 className="cardapio__card-name">{item.name}</h4>
-                <p className="cardapio__card-desc">{item.desc}</p>
+              <div className="cardápio__card-info">
+                <h4 className="cardápio__card-name">{item.name}</h4>
+                <p className="cardápio__card-desc">{item.desc}</p>
               </div>
             </div>
           ))}
         </div>
 
         {/* Pricing info */}
-        <div className={`cardapio__pricing reveal delay-3 ${inView ? 'revealed' : ''}`}>
-          <div className="cardapio__pricing-box">
-            <span className="cardapio__pricing-label">Rodizio Completo</span>
-            <div className="cardapio__pricing-value">
-              <span className="cardapio__pricing-from">a partir de</span>
-              <span className="cardapio__pricing-price">R$ 79,90</span>
-              <span className="cardapio__pricing-per">/pessoa</span>
+        <div className={`cardápio__pricing reveal delay-3 ${inView ? 'revealed' : ''}`}>
+          <div className="cardápio__pricing-box">
+            <span className="cardápio__pricing-label">Rodizio Completo</span>
+            <div className="cardápio__pricing-value">
+              <span className="cardápio__pricing-from">a partir de</span>
+              <span className="cardápio__pricing-price">R$ 79,90</span>
+              <span className="cardápio__pricing-per">/pessoa</span>
             </div>
-            <p className="cardapio__pricing-note">
+            <p className="cardápio__pricing-note">
               Hamburgueres + Pizzas + Massas. Coma a vontade.
             </p>
-            <div className="cardapio__pricing-actions">
+            <div className="cardápio__pricing-actions">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 <WhatsappLogo size={18} weight="fill" />
                 <span>Reservar Mesa</span>

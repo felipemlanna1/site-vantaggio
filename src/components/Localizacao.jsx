@@ -3,9 +3,9 @@ import { MapPin, NavigationArrow, Car, WhatsappLogo } from '@phosphor-icons/reac
 import './Localizacao.css'
 
 const WHATSAPP_URL = 'https://wa.me/5548984552026?text=Ol%C3%A1!%20Gostaria%20de%20saber%20como%20chegar%20no%20Vantaggio%20Restaurante.'
-const MAPS_URL = 'https://maps.google.com/?q=Vantaggio+Restaurante+Canasvieiras+Florianopolis'
+const MAPS_URL = 'https://maps.google.com/?q=Vantaggio+Restaurante+Canasvieiras+Florianópolis'
 
-export default function Localizacao() {
+export default function Localização() {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true })
 
   return (
@@ -19,13 +19,13 @@ export default function Localizacao() {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Localizacao Vantaggio Restaurante"
+          title="Localização Vantaggio Restaurante"
         />
         <div className="localizacao__map-overlay" />
       </div>
 
       <div className="container">
-        <div className={`localizacao__card reveal ${inView ? 'revealed' : ''}`}>
+        <div className={`localização__card reveal ${inView ? 'revealed' : ''}`}>
           <div className="localizacao__card-pin">
             <MapPin size={28} weight="fill" />
           </div>
@@ -33,7 +33,7 @@ export default function Localizacao() {
           <h3 className="localizacao__card-title">Vantaggio Restaurante</h3>
           <p className="localizacao__card-address">
             Rua Professor Milton Leite da Costa, 586
-            <br />Canasvieiras, Florianopolis - SC
+            <br />Canasvieiras, Florianópolis - SC
           </p>
 
           <div className="localizacao__card-details">
@@ -48,11 +48,11 @@ export default function Localizacao() {
           </div>
 
           <div className="localizacao__card-actions">
-            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary localizacao__btn">
+            <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary localização__btn">
               <NavigationArrow size={16} weight="bold" />
               <span>Abrir no Maps</span>
             </a>
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary localizacao__btn">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary localização__btn">
               <WhatsappLogo size={16} weight="fill" />
               <span>Como Chegar</span>
             </a>
@@ -61,7 +61,7 @@ export default function Localizacao() {
       </div>
 
       {/* Beach image strip */}
-      <div className={`localizacao__beach reveal delay-2 ${inView ? 'revealed' : ''}`}>
+      <div className={`localização__beach reveal delay-2 ${inView ? 'revealed' : ''}`}>
         <img src="./images/canasvieiras-praia.jpg" alt="Praia de Canasvieiras" loading="lazy" />
         <div className="localizacao__beach-overlay" />
         <p className="localizacao__beach-text">A poucos passos da praia de Canasvieiras</p>

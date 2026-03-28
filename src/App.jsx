@@ -18,7 +18,7 @@ function HomePage() {
     <>
       <Helmet>
         <title>Vantaggio Restaurante | Rodizio Gourmet em Canasvieiras</title>
-        <meta name="description" content="Pioneiro e 1o Rodizio de Mini Hamburguer Gourmet de Florianopolis. Pizzas artesanais, massas caseiras, musica ao vivo. Canasvieiras, SC." />
+        <meta name="description" content="Pioneiro e 1o Rodizio de Mini Hamburguer Gourmet de Florianópolis. Pizzas artesanais, massas caseiras, música ao vivo. Canasvieiras, SC." />
       </Helmet>
       <Hero />
       <About />

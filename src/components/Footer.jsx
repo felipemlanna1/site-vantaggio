@@ -14,7 +14,7 @@ export default function Footer() {
             <img src="./images/logo.svg" alt="Vantaggio Restaurante" className="footer__logo" />
             <p className="footer__tagline">
               Pioneiro e 1o Rodizio de Mini Hamburguer Gourmet
-              de Florianopolis. Pizzas artesanais, massas caseiras
+              de Florianópolis. Pizzas artesanais, massas caseiras
               e muita paixao pela gastronomia.
             </p>
             <div className="footer__social">
@@ -53,7 +53,7 @@ export default function Footer() {
             <ul>
               <li>
                 <MapPin size={16} weight="duotone" />
-                <span>R. Prof. Milton Leite da Costa, 586<br />Canasvieiras, Florianopolis - SC</span>
+                <span>R. Prof. Milton Leite da Costa, 586<br />Canasvieiras, Florianópolis - SC</span>
               </li>
               <li>
                 <Clock size={16} weight="duotone" />
@@ -67,17 +67,17 @@ export default function Footer() {
             <ul>
               <li><a href="#sobre">Sobre Nos</a></li>
               <li><a href="#rodizio">O Rodizio</a></li>
-              <li><a href="#cardapio">Cardapio</a></li>
+              <li><a href="#cardápio">Cardápio</a></li>
               <li><a href="#depoimentos">Avaliacoes</a></li>
               <li><a href="#reserva">Reservas</a></li>
-              <li><a href="#localizacao">Como Chegar</a></li>
+              <li><a href="#localização">Como Chegar</a></li>
             </ul>
           </div>
         </div>
 
         <div className="footer__bottom">
           <p>&copy; {currentYear} Vantaggio Restaurante. Todos os direitos reservados.</p>
-          <p className="footer__cnpj">CNPJ: 00.000.000/0001-00 | Canasvieiras, Florianopolis - SC</p>
+          <p className="footer__cnpj">CNPJ: 00.000.000/0001-00 | Canasvieiras, Florianópolis - SC</p>
         </div>
       </div>
     </footer>
